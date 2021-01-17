@@ -1,0 +1,33 @@
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-container form{
+    width: 70%;
+}
+.signup-container form label{
+    margin-left: 10px !important;
+    margin-top: 5px;
+} 
+.signup-container form input{
+    margin-top: 10px;
+    padding: 10px !important;
+    outline: none !important;
+    transition: 1s;
+    height: 60px !important;
+    border:1px solid dodgerblue !important;
+}
+.signup-container form input:focus{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border:2px solid rgb(9, 169, 81) !important;
+    box-shadow: 0px 0px 12px 1px rgb(9, 169, 81) !important;
+}
+.signup-container form input:hover{
+    border:none !important;
+    border-bottom: 1px solid dodgerblue !important;
+    border-radius: 0px !important;
+}

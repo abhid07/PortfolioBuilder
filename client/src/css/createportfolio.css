@@ -1,0 +1,41 @@
+.createportfolio-container{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.project-details form,.personal-details form{
+    width: 80%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+}
+.project-details  form label, .personal-details form label{
+    margin-left: 10px !important;
+    margin-top: 5px !important;
+}   
+.project-details form input, .personal-details form input {
+    margin-top: 10px;
+    padding: 10px !important;
+    outline: none !important;
+    transition: 1s;
+    height: 60px !important;
+    border:1px solid dodgerblue !important;
+}
+
+.project-details form textarea,.personal-details form textarea{
+    margin-top: 10px;
+    padding: 20px !important;
+    border:1px solid dodgerblue !important;
+    outline: none !important;
+    transition: 1s;
+    min-height: 100px;
+}
+.personal-details .personal-header{
+    display: flex;
+    justify-content: space-between;
+}
